@@ -24,7 +24,7 @@ export class OrderItem {
 
 const orders = [
   new Order('2005-5-5', 99.55, [
-    new OrderItem(new Product('redshoe', 'Old red shoe', 49.6), 2),
+    new OrderItem(new Product('redshoe', 'Old red shoe', 49.6, []), 2),
   ]),
 ];
 
